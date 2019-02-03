@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://connorburrows.github.io/sitemap.xml
