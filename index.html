@@ -2,7 +2,7 @@
 
 <html>
 	<head>
-	<meta name="generator" content="Hugo 0.48" />
+	<meta name="generator" content="Hugo 0.55.4" />
 		<title>Connor Burrows</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -23,19 +23,23 @@
             <div class="logo">
               
                         
-              <span class="icon fa-android"></span>
+              <span class="icon fa-diamond"></span>
             
             </div>
             <div class="content">
               <div class="inner">
                 <h1>Connor Burrows</h1>
-                <p><!--[-->A network technician, FIRST mentor, and dog lover.</a><!--]--></p>
+                <p>A NETWORK TECHNICIAN, FIRST MENTOR, AND DOG LOVER.</p>
               </div>
             </div>
             <nav>
               <ul>
                 
                   <li><a href="#about">About</a></li>
+                
+                  <li><a href="http://www.example.org">BLOG</a></li>
+                
+                  <li><a href="#contact">Contact</a></li>
                 
               </ul>
             </nav>
@@ -46,15 +50,75 @@
             
               <article id="about">
   <h1>About</h1>
-  <p>
-<figure class="image main">
-    
-        <img src="/images/portrait.jpg" />
-    
-    
+  <p><figure class="image main">
+    <img src="/images/portrait.jpg"/> 
 </figure>
 
-Connor is a network technician that works for a company that provides managed information technology services to small businesses. When not at work, Connor is a volunteer mentor for <i>FIRST</i> FRC <a href="https://team2052.com">Team 2052 KnightKrawler</a> from Irondale High School in New Brighton, Minnesota.</p>
+Connor is a network technician that works for a company that provides managed information technology services to small businesses. When not at work, Connor is a volunteer mentor for <i>FIRST</i> FRC <a href="https://team2052.com" target="_blank"> Team 2052 KnightKrawler</a> from Irondale High School in New Brighton, Minnesota.</p>
+
+<ul class="icons">
+
+	<li><a href="https://www.linkedin.com/in/connorburrows/" class="icon fa-linkedin"><span class="label">linkedin</span></a></li>
+
+	<li><a href="https://instagram.com/burrowsconnor" class="icon fa-instagram"><span class="label">instagram</span></a></li>
+
+	<li><a href="https://github.com/connorburrows" class="icon fa-github"><span class="label">github</span></a></li>
+
+</ul>
+
+</article>
+
+            
+              <article id="blog">
+  <h1>BLOG</h1>
+  
+</article>
+
+            
+              <article id="contact">
+  <h1>Contact</h1>
+  <p><form id="contactform" method="post" action="https://formspree.io/connor@connorburrows.com">
+    <div class="field half first">
+        <input type="text" name="name" id="name" placeholder="Name"/>
+    </div>
+    <div class="field half">
+        <input type="email" id="email" name="email" placeholder="Email">
+    </div>
+    <div class="field">
+        <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
+    </div>
+    <ul class="actions">
+        <li><input type="submit" value="Send message" class="special" /></li>
+        <li><input type="reset" value="Reset" /></li>
+    </ul>
+    <input type="hidden" name="_next" value="?sent#formspree" />
+    <input type="hidden" name="_subject" value="Subject for your mail like new message" />
+    <input type="text" name="_gotcha" style="display:none" />
+</form>
+<span id="contactformsent">Thank you for your message</span></p>
+
+<script>
+$(document).ready(function($) {
+    $(function(){
+        if (window.location.search == "?sent") {
+            $('#contactform').hide();
+            $('#contactformsent').show();
+        } else {
+            $('#contactformsent').hide();
+        }
+    });
+});
+</script>
+
+<ul class="icons">
+
+	<li><a href="https://www.linkedin.com/in/connorburrows/" class="icon fa-linkedin"><span class="label">linkedin</span></a></li>
+
+	<li><a href="https://instagram.com/burrowsconnor" class="icon fa-instagram"><span class="label">instagram</span></a></li>
+
+	<li><a href="https://github.com/connorburrows" class="icon fa-github"><span class="label">github</span></a></li>
+
+</ul>
 
 </article>
 
@@ -80,17 +144,6 @@ Connor is a network technician that works for a company that provides managed in
 			<script src="/js/util.js"></script>
 			<script src="/js/main.js"></script>
 			
-<script type="application/javascript">
-var doNotTrack = false;
-if (!doNotTrack) {
-	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-	ga('create', 'UA-46632521-1', 'auto');
-	
-	ga('send', 'pageview');
-}
-</script>
-<script async src='https://www.google-analytics.com/analytics.js'></script>
-
 
 	</body>
 </html>
